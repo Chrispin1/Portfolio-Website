@@ -10,7 +10,7 @@ const Header = ({ darkMode, setDarkMode }) => {
             setDarkMode(!darkMode);
           }}>
           {darkMode ? (
-            <MdWbSunny className="text-2xl cursor-pointer" />
+            <MdWbSunny className=" text-2xl cursor-pointer" />
           ) : (
             <MdNightsStay className="text-2xl cursor-pointer" />
           )}
