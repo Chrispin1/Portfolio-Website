@@ -46,7 +46,7 @@ const Hero = () => {
         {/* avatar and resume */}
         <div >
           <img src={avatar} alt="avatar" className="h-60 w-60 md:h-72 md:w-72 object-cover object-top bg-gradient-to-b from-rose-600 pt-5 rounded-xl " />
-          <a className="flex items-center justify-center mt-12 bg-gradient-to-r from-rose-600 to-teal-500 py-3 rounded-lg" href="/src/assets//yash-resume.pdf" download={true}>Resume</a>
+          <a className="flex items-center justify-center mt-12 bg-gradient-to-r from-rose-600 to-teal-500 py-3 rounded-lg hover:scale-120 duration-200" href="/src/assets//yash-resume.pdf" download={true}>Resume</a>
         </div>
 
     </section>
