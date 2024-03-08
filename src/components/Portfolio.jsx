@@ -73,6 +73,7 @@ const Portfolio = () => {
                 rel="noreferrer">
                 <FaGithub />
               </a>
+
               <a
                 className="text-2xl cursor-pointer duration-150 hover:scale-110"
                 href={demo}

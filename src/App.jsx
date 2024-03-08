@@ -3,6 +3,7 @@ import { useState } from "react";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Services />
         <Portfolio />
+        <Testimonials />
       </main>
     </div>
   );
