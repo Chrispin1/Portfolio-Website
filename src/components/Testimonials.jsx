@@ -29,7 +29,7 @@ const Testimonials = () => {
     <Section
       title="Testimonials"
       subtitle="This is what other clients have to say about me. I accept clients from all around the world.">
-      <div>
+      <div className="max-w-xl flex flex-col gap-4">
         {TESTIMONIALS.map(({ id, image, name, comment }) => (
           <div
             key={id}
