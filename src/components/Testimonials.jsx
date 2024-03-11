@@ -43,7 +43,7 @@ const Testimonials = () => {
             </div>
             <div className="w-2/3 flex-flex-col justify-center items-center gap-2 p-2">
               <h3 className="text-xl font-semi-bold">{name}</h3>
-              <p className="text-sm font-extralight">{comment}</p>
+              <p className="text-sm font-extralight ">{comment}</p>
             </div>
           </div>
         ))}
